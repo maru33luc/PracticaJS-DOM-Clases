@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+form {
+    max-width: 400px;
+}
+
+table {
+    margin: 50px auto;
+}
+
+select,
+input,
+button {
+    padding: 10px;
+    width: 100%;
+}
+
+select,
+button {
+    margin-top: 10px;
+}
+
+td {
+    vertical-align: middle;
+}
+
+tbody tr {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
